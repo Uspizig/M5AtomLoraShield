@@ -18,6 +18,26 @@ static void hal_spi_init () {
     SPI.begin(23, 22, 19, 33);//Comment Uspizig M5Matrix Lora Modul
 }
 
+Part List/BOM:
+SMD-Stiftleiste: SMD RM2.54 z.B.
+https://www.conrad.de/de/p/fischer-elektronik-stiftleiste-standard-anzahl-reihen-1-polzahl-je-reihe-20-sl-10-smd-062-20-z-1-st-739077.html
+
+MBR0530-SOD123: D1, D2, D3 -> Anode towards RFM95 DIO0, DIO1, DIO2
+Kathode direction to D4, R1 
+https://www.conrad.de/de/p/mbr-0530-t1g-diode-schottky-smd-0-5a-30v-sod123-inhalt-50-stueck-800112525.html
+
+0805 Resistor 4k7 or 10k or 1k PullDown Resistor-> R2
+Choose whatever you have availible in Kohm.
+
+RFM95 Lora TTN Module:
+https://www.conrad.de/de/p/rfm95w-868-s2-lora-module-868mhz-20-123dbm-300kbps-1-8-3-7v-800167586.html
+
+7.8 cm wire as a Antenna. 
+
+Optional:
+C1 100nF 0805
+C2 1µF 0805
+
 
 
 
