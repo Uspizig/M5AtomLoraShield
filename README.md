@@ -32,7 +32,8 @@ Choose whatever you have availible in Kohm.
 RFM95 Lora TTN Module:
 https://www.conrad.de/de/p/rfm95w-868-s2-lora-module-868mhz-20-123dbm-300kbps-1-8-3-7v-800167586.html
 
-7.8 cm wire as a Antenna. 
+Wire as a Antenna 
+L = 3 x 10^8 m/s : 868 MHz : 4 = 86,3 mm
 
 Optional:
 C1 100nF 0805
